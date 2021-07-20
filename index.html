@@ -10,12 +10,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- bootstrap cdn -->
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- bootstrap icon -->
 </head>
 
 <body style="background: #E5E5E5;">
 
   <!-- header start -->
-  <header style="background:white">
+  <header class="pb-5" style="background:white">
     <!-- navigation bar start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
@@ -48,7 +51,7 @@
     <!-- image slider -->
     <section class="container">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-pause="false" data-bs-ride="carousel">
-        <div class="carousel-inner my-5 p-5" style="background: #FEEAE9;">
+        <div class="carousel-inner rounded my-5 p-5" style="background: #FEEAE9;">
           <div class="carousel-item active">
             <div class="row d-flex align-items-center">
               <div class="col-lg-7">
@@ -107,12 +110,13 @@
 
     <!-- category section start -->
     <section class="container">
-      <div class="row">
-        <h2>
-          Categories
-        </h2>
+      <h2>
+        Categories
+      </h2>
+      <div class="row gx-5">
+        <!-- category -->
         <div class="col-lg-4 col-md-6">
-          <div class="row">
+          <div class="row p-3 rounded d-flex align-items-center justify-content-around" style="background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);">
             <div class="col-md-7">
               <h2>
                 Watch
@@ -123,6 +127,37 @@
             </div>
           </div>
         </div>
+        <!-- category -->
+        <!-- category -->
+        <div class="col-lg-4 col-md-6">
+          <div class="row  p-3 rounded d-flex align-items-center justify-content-around" style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);">
+            <div class="col-md-7">
+              <h2>
+                Bag
+              </h2>
+            </div>
+            <div class="col-md-5">
+              <img src="images/categories/bag.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- category -->
+        <!-- category -->
+        <div class="col-lg-4 col-md-6">
+          <div class="p-3 row  rounded d-flex align-items-center justify-content-around" style="background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+          ">
+            <div class="col-md-7">
+              <h2>
+                Shoes
+              </h2>
+            </div>
+            <div class="col-md-5">
+              <img src="images/categories/shoes.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- category -->
+
       </div>
     </section>
     <!-- category section end -->
@@ -130,11 +165,142 @@
   </header>
   <!-- header end -->
   
+  
   <!-- main strat -->
   <main>
+<!-- shoes section start -->
+<section class="container py-5">
+  <h2>
+    Shoes
+  </h2>
 
+<!-- shoes product -->
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <!-- product -->
+  <div class="col">
+    <div class="card p-3 shadow-lg border-0 h-100">
+      <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+      </div>
+      <div class="card-footer bg-white border-0">
+        <button class="d-flex align-items-center btn btn-warning">BUY NOW <i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- product -->
+  <div class="col">
+    <div class="card p-3 shadow-lg border-0 h-100">
+      <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Reebok Pump</h5>
+        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+      </div>
+      <div class="card-footer bg-white border-0">
+        <button class="d-flex align-items-center btn btn-warning">BUY NOW <i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- product -->
+  <div class="col">
+    <div class="card p-3 shadow-lg border-0 h-100">
+      <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Reebok All Terrain</h5>
+        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  </p>
+      </div>
+      <div class="card-footer bg-white border-0">
+        <button class="d-flex align-items-center btn btn-warning">BUY NOW <i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- shoes product -->
+</section>
+  <!-- shoes section end -->
+  <!-- bag section start -->
+<section class="container py-5">
+  <h2>
+    Backpack
+  </h2>
+
+<!-- Backpack product -->
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <!-- product -->
+  <div class="col">
+    <div class="card p-3 shadow-lg border-0 h-100">
+      <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ison Backpack</h5>
+        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+      </div>
+      <div class="card-footer bg-white border-0">
+        <button class="d-flex align-items-center btn btn-warning">BUY NOW <i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- product -->
+  <div class="col">
+    <div class="card p-3 shadow-lg border-0 h-100">
+      <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Biaowang Backpack</h5>
+        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+      </div>
+      <div class="card-footer bg-white border-0">
+        <button class="d-flex align-items-center btn btn-warning">BUY NOW <i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- product -->
+  <div class="col">
+    <div class="card p-3 shadow-lg border-0 h-100">
+      <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dxyizu WS54 Smart</h5>
+        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  </p>
+      </div>
+      <div class="card-footer bg-white border-0">
+        <button class="d-flex align-items-center btn btn-warning">BUY NOW <i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- shoes product -->
+</section>
+  <!-- shoes section end -->
+
+  <!-- newsletter start -->
+  <section class="p-5 bg-white">
+      <div class="rounded container m-5 p-5" style="background: #FEEAE9;">
+        <div class="d-flex justify-content-center p-5">
+          <div>
+            <h1>
+              LET'S STAY IN TOUCH
+            </h1>
+            <p>
+              Get updates on sales specials and more
+            </p>
+            <form action="">
+              <input type="email" placeholder="Your email" name="" id="">
+              <input class="btn btn-danger" type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- newsletter start -->
   </main>
   <!-- main end -->
+
+  <footer class="text-center bh-light p-3">
+    &copy all right reserved | Md. Musabbir
+  </footer>
 
 
 
